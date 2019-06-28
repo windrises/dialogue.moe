@@ -17,7 +17,7 @@
               </li>
               <li>
                 <div class="text item">
-                  <p>As of now, there are 7700+ animes with subtitles and 6500W+ dialogues in database</p>
+                  <p>As of now, there are 7,700+ animes with subtitles and 6,5000,000+ dialogues in database</p>
                   <p>Due to the expensive cost, the server has only 2 vCPU and 4 GiB memory. Please don't try to crawl this website with high concurrency</p>
                 </div>
               </li>
