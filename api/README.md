@@ -6,8 +6,8 @@ url: https://dialogue.moe
 
 | key        | value   | default | example    |
 | -----      | -----   | -----   | -----      |
-| text       | string  |         | "我很好奇" |
-| bangumi_id | string  | ""      | "27364"    |
+| text       | string  |         | 我很好奇    |
+| bangumi_id | string  |         | 27364      |
 | duplicate  | boolean | false   | true       |
 
 ## response
