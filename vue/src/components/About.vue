@@ -30,7 +30,7 @@
               </li>
               <li>
                 <div class="text item">
-                  <p>Please Email <a href="mailto:dialogue.moe@gamil.com">dialogue.moe@gamil.com</a> if you</p>
+                  <p>Please Email <a href="mailto:dialogue.moe@gmail.com">dialogue.moe@gmail.com</a> if you</p>
                   <ul>
                     <li>
                       <p>don't want your work to appear in search results</p>
