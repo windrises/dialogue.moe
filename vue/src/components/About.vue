@@ -23,7 +23,7 @@
               <li>
                 <div class="text item">
                   <p>You can find the data and source code in <a href="https://github.com/windrises/dialogue.moe" target="_blank">
-                    https://github.com/windrises/dialogue
+                    https://github.com/windrises/dialogue.moe
                   </a></p>
                 </div>
               </li>
