@@ -141,7 +141,8 @@ def search(request):
                         time_eps = 3
                         text_eps = 5
                         for y_start, y_text in dialogue_dict[subject_id]:
-                            if (x_start - y_start).seconds <= time_eps:
+                            time_delta = min((x_start - y_start).seconds, (y_start - x_start).seconds)
+                            if time_delta <= time_eps:
                                 distance = Levenshtein.distance(x_text, y_text)
                                 if distance < text_eps:
                                     flag = True
