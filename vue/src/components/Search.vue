@@ -249,7 +249,9 @@ export default {
             this.total = response.data.total
             this.time_cost = response.data.time_cost
             this.dialogues = this.dialogues.concat(response.data.dialogues)
-            this.sort_values = this.dialogues[this.dialogues.length - 1].sort_values
+            if (this.dialogues.length > 0) {
+              this.sort_values = this.dialogues[this.dialogues.length - 1].sort_values
+            }
             this.result_show = true
 
             this.$nextTick(function () {
