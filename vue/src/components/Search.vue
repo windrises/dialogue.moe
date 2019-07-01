@@ -242,7 +242,6 @@ export default {
         history: this.dialogues
       }, config)
         .then((response) => {
-          console.log(response)
           if (response.data.hasOwnProperty('error')) {
             this.error(response.data.error)
           } else {
@@ -268,7 +267,6 @@ export default {
           this.progress_done()
         })
         .catch((error) => {
-          console.log(error)
           this.error('Unknown Error!')
           this.loading = false
           this.next_loading = false
@@ -279,8 +277,6 @@ export default {
       return str.replace(/(^\s*)|(\s*$)/g, '')
     },
     search () {
-      console.log(this.text)
-      console.log(this.bangumi_id)
       this.text = this.strip(this.text)
       this.bangumi_id = this.strip(this.bangumi_id)
       if (this.text === '') {
@@ -297,10 +293,8 @@ export default {
       this.post()
     },
     next_page () {
-      console.log('next page')
       this.next_loading = true
       this.last_scrollTop = document.documentElement.scrollTop
-      console.log(this.last_scrollTop)
       this.post()
     },
     error (message) {
