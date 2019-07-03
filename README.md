@@ -6,4 +6,4 @@ The dialogues come from a large number of Chinese subtitle files which are crawl
 
 The dialogues are stored and analyzed by Elasticsearch for full-text search
 
-![](http://wx3.sinaimg.cn/mw690/0062shohly1g4gxxt7z6mj30w90m0wf4.jpg)
+![](http://wx3.sinaimg.cn/large/0062shohly1g4gxxt7z6mj30w90m0wf4.jpg)
