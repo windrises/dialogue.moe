@@ -2,10 +2,10 @@
 
 ## post 
 
-url: https://dialogue.moe
+url: https://api.dialogue.moe
 
 | key        | value   | default | example    |
-| -----      | -----   | -----   | -----      |
+| :-----     | :-----  | :-----  | :-----     |
 | text       | string  |         | 我很好奇    |
 | bangumi_id | string  |         | 27364      |
 | duplicate  | boolean | false   | true       |
@@ -13,7 +13,7 @@ url: https://dialogue.moe
 ## response
 
 | key                             | value   | example  |
-| -----                           | -----   | -----    |
+| :-----                          | :-----  | :-----   |
 | total                           | string  | 4773     |
 | time_cost                       | string  | 23       |
 | dialogues                       | array   |          |
