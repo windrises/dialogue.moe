@@ -4,6 +4,8 @@
 
 url: https://api.dialogue.moe
 
+Content-Type:application/json
+
 | key        | value   | default | example    |
 | :-----     | :-----  | :-----  | :-----     |
 | text       | string  |         | 我很好奇    |
