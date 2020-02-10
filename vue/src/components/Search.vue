@@ -266,7 +266,7 @@ export default {
           this.next_loading = false
           this.progress_done()
         })
-        .catch((error) => {
+        .catch(() => {
           this.error('Unknown Error!')
           this.loading = false
           this.next_loading = false
