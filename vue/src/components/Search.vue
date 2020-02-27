@@ -63,7 +63,7 @@
           </el-col>
         </el-row>
       </el-header>
-      <el-row :gutter="20" type="flex" justify="center" v-if="progress_vis">
+      <el-row type="flex" justify="center" v-if="progress_vis">
         <el-col :xs="24" :sm="20" :lg="18">
           <el-progress :percentage="percentage" :color="progress_color" :show-text=false style="top: 15px"></el-progress>
         </el-col>
